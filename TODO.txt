@@ -1,0 +1,3 @@
+1) change the google secrets to aarnav
+2) mongoDB database name from todo to something better
+3) 

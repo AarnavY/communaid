@@ -1,0 +1,38 @@
+Prompt 1 for Home Page:
+Once we login, instead of a todo list  take me to a home page of a website
+The website is about a debating competition preparation site. The home page should have a title at the top called "ArguMentor" and it should also have a nav bar with the following menu items: Home, Learn, Evidence, Case Selection, and Forum. The page should also contain a jumbotron with the primary message being "Master debate skills with ArguMentor!", the secondary message being ""Unlock the Power of Persuasion with ArguMentor! Learn the essentials of policy debate and boost your confidence, critical thinking, and speaking skills—right from the start." and the call to action button stating sign up for our regular updates! Keep a nice relevant image as the backdrop, and use a gradient so the text is properly visible on top of it. Choose an appropriate color palette to fit the website theme. Keep the page basic and minimalistic, do not add any fancy frameworks from bootstraps, tailwind, material ui, or etc. However, the CSS should be captured as part of the styles folder. The page should also have a login button in an appropriate place. Dont write any backend code yet, we will integrate that later. Preserve the folder structure of the previous project, do not make any major structural changes.
+
+
+1) main page
+I want to change the main login page, it should be like a login page of a community help portal instead of a todo list. The name of the portal should be voluntree, it should have a nice appropriate  image associated with volunteers helping senior citizens. The slogan of the voluntree app should be "Helping hands for those who once helped us." The first page should have have boht login and signup. The page should be responsive to different screen sizes. Use a gradient so that the text is properly visible on top of the image. Choose an appropriate color palette to fit the website theme. Keep the page basic and minimilistic, do not add any fancy framework like bootstrap or material ui, tailwind, however the css should be captured as part of the styles folder. dont write any backend code yet, we will integrate that later, preserve the folder structure of the previous todo list project, do not make any major structure chages
+
+
+2) migration to app router
+I would like to migrate to app router features of Next.js 13 to please the make the changes to pages based routing
+
+
+
+
+3) Sign-Up Page
+Create a signup page where user can sign up using google account/auth and write necessary code to create the backend mongoDB Collection to store user information. Create a sign up sheet that ask for user information. This sheet will contain fields such as first name, last name, date of birth, and gender. The sign button on the first page should take to this page
+
+4) authentication
+when user clicks on sign in using google they should be able to login if they are already completed their sign up
+
+5) Home screen
+Once the user successfuly logs in , he should landup on a homescreen. Homescreen should have a side navbar, a header, and table as the main display in the center. The side navbar should have the following links, Available projects, leaderboard, request service, certificate. There should be an indicator on top right about the logged in user and also the ability to logout. do not create any backend yet. make the page professional and attractive and appropriate to the them of the application
+
+6) Request service 
+Create a Request Service page that displays a form allowing users to submit a service request. The form should include input fields for title (a short summary of the request), description (a detailed explanation of what the user needs), instruction (any special instructions or preferences), an optional image upload, and a date and time input. The page must also have two buttons: a Submit button to send the request and a Home button to return the user to the dashboard. When you click the submit button it should store it into the mongodb backend. PLease use server action features of next.js 13 for implementing this
+
+7) Create a user-friendly Profile Page that users are redirected to when they click on their name or profile picture. On this page, users should be able to view and update their personal information, including their name, profile photo, contact details (such as email and phone number), and change their password. Ensure the design is clean and modern, with intuitive form fields, a preview of the profile photo, and a clear "Save Changes" button to submit updates.
+
+8) make sure that data in the dashboard matches with the data in the project request form also a input field in project request that asks for the number volunteers needed
+
+9) Make the "View" button functionality so that when clicked, it opens a pop-up module displaying the full project details in a clean organized layout similar to the format of the original request form. This pop-up should allow users to easily review all submitted information, including the title, description, instructions, optional image, and scheduled time, without navigating away from the current page.
+
+10) Add a new tab titled "My Projects" that features two clearly separated sections. One section will display all the projects the user has created, while the other will showcase the projects they have joined.
+
+11) Make the "Join" button so that when a user clicks it, they officially accept the project. Once accepted, the project should be removed from the main dashboard and automatically moved to the user's "My Projects" page, allowing for a clear separation between available and active assignments. 
+
+12) For my project can you sub tab that shows the project i have created and another that takes me to project i have joined
