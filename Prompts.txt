@@ -36,3 +36,5 @@ Create a Request Service page that displays a form allowing users to submit a se
 11) Make the "Join" button so that when a user clicks it, they officially accept the project. Once accepted, the project should be removed from the main dashboard and automatically moved to the user's "My Projects" page, allowing for a clear separation between available and active assignments. 
 
 12) For my project can you sub tab that shows the project i have created and another that takes me to project i have joined
+
+for the certifate i want you get volunteering award and requirements need for them and it to be shown and i want this tab to track your progress to award
