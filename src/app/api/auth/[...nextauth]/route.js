@@ -22,10 +22,8 @@ export const authOptions = {
       if (account.provider === "google") {
         try {
           await connectDB();
-          
           // Check if user already exists
           const existingUser = await User.findOne({ email: user.email });
-          
           if (!existingUser) {
             // Create new user with basic info from Google
             const newUser = new User({
@@ -34,19 +32,13 @@ export const authOptions = {
               lastName: profile.family_name || '',
               googleId: profile.sub,
               profilePicture: profile.picture,
-              // Set default values for required fields
-              dateOfBirth: new Date('1990-01-01'), // Default date
-              gender: 'prefer-not-to-say' // Default gender
+              dateOfBirth: new Date('1990-01-01'),
+              gender: 'prefer-not-to-say'
             });
-            
             await newUser.save();
-            
-            // Redirect to complete profile page for new users
-            return '/signup/complete';
-          } else {
-            // User exists, allow normal login
-            return true;
           }
+          // Always allow sign in
+          return true;
         } catch (error) {
           console.error('Error during sign in:', error);
           return false;
